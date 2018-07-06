@@ -109,6 +109,7 @@
             this.Genre_Listbox.Name = "Genre_Listbox";
             this.Genre_Listbox.Size = new System.Drawing.Size(183, 108);
             this.Genre_Listbox.TabIndex = 5;
+            this.Genre_Listbox.SelectedIndexChanged += new System.EventHandler(this.Genre_Listbox_SelectedIndexChanged);
             // 
             // Playing_Textbox
             // 
@@ -149,6 +150,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Jukebox";
             this.Text = "My Juke box v2.0";
+            this.Load += new System.EventHandler(this.Jukebox_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
