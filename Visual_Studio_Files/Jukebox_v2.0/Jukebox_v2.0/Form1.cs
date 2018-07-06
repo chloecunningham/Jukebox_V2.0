@@ -21,5 +21,17 @@ namespace Jukebox_v2._0
         {
 
         }
+
+        private void setToolStripMenuItem_Click(object sender, EventArgs e) //opens the set up box
+        {
+            Set_up f1 = new Set_up();
+            f1.ShowDialog();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e) //opens the about page
+        {
+            About f2 = new About();
+            f2.ShowDialog();
+        }
     }
 }

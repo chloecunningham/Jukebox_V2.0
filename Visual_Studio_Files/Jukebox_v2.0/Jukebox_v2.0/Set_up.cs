@@ -16,5 +16,10 @@ namespace Jukebox_v2._0
         {
             InitializeComponent();
         }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
