@@ -85,9 +85,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(373, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 13);
+            this.label1.Size = new System.Drawing.Size(182, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Copyright 2018 Chloe Cunningham";
+            this.label1.Text = "Copyright © 2018 Chloe Cunningham";
             // 
             // contextMenuStrip1
             // 
