@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Jukebox_v2._0
 {
@@ -20,16 +21,9 @@ namespace Jukebox_v2._0
         private void Jukebox_Load(object sender, EventArgs e)
 
         {
-            string[,] songs = new string[,]
-         {
-            {"Parody", "Ducked_up_Lips - KOA", "Fallen_Kingdom - TryHardNinja", "Kim_Jong_Style - KOA", "On_the_Down_Low - KOA"},
-            {"Pop", "If_I_Had_You - Adam Lambert", "Shut_Up - Kelly Clarkson", "Sleep_Walker - Adam Lambert", "Whataya_Want_From_Me - Adam Lambert"},
-            {"Punk", "American_Idiot - Green Day", "Burnout - Green Day", "Give_Me_Novacaine - Green Day", "Welcome_To_Paradise - Green Day"},
-            {"Rock", "Cut_the_Cord - Shinedown", "Miracle - Shinedown", "Nowhere_Kids - Shinedown", "Second_Chance - Shinedown"},
-         };
-            Genre_Textbox.Text = (songs[0, 0]);
-            Genre_Listbox.Items.Add(songs[0, 1
-                ]);
+            string path = @"C:\Users\Chloe\Desktop\Jukebox ReSub\Jukebox_V2.0\songs.txt"; //path to read the songs from
+            
+
         }
 
         
