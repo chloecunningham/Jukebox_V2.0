@@ -27,7 +27,9 @@ namespace Jukebox_v2._0
             {"Punk", "American_Idiot - Green Day", "Burnout - Green Day", "Give_Me_Novacaine - Green Day", "Welcome_To_Paradise - Green Day"},
             {"Rock", "Cut_the_Cord - Shinedown", "Miracle - Shinedown", "Nowhere_Kids - Shinedown", "Second_Chance - Shinedown"},
          };
-            Genre_Listbox.Items.Add(songs[0, 1]);
+            Genre_Textbox.Text = (songs[0, 0]);
+            Genre_Listbox.Items.Add(songs[0, 1
+                ]);
         }
 
         
