@@ -38,35 +38,31 @@ namespace Jukebox_v2._0
                     "Rock", "Cut_the_Cord", "Miracle", "Nowhere_Kids", "Second_Chance"
                 }
             };
-
+            //this adds the names of the genres
             Genre_Textbox.Text = songs[0, 0];
             Genre_Textbox.Text = songs[1, 0];
             Genre_Textbox.Text = songs[2, 0];
             Genre_Textbox.Text = songs[3, 0];
-
+            //Parody songs displayed
             Genre_Listbox.Items.Add(songs[0,1]);
             Genre_Listbox.Items.Add(songs[0,2]);
             Genre_Listbox.Items.Add(songs[0,3]);
             Genre_Listbox.Items.Add(songs[0, 4]);
-            
+            //Pop songs displayed
             Genre_Listbox.Items.Add(songs[1, 1]);
             Genre_Listbox.Items.Add(songs[1, 2]);
             Genre_Listbox.Items.Add(songs[1, 3]);
             Genre_Listbox.Items.Add(songs[1, 4]);
-            
+            //Punk songs displayed
             Genre_Listbox.Items.Add(songs[2, 1]);
             Genre_Listbox.Items.Add(songs[2, 2]);
             Genre_Listbox.Items.Add(songs[2, 3]);
             Genre_Listbox.Items.Add(songs[2, 4]);
-            
+            //Rock songs displayed
             Genre_Listbox.Items.Add(songs[3, 1]);
             Genre_Listbox.Items.Add(songs[3, 2]);
             Genre_Listbox.Items.Add(songs[3, 3]);
             Genre_Listbox.Items.Add(songs[3, 4]);
-            
-            
-            
-          
         }
         
         private void label1_Click(object sender, EventArgs e)

@@ -54,7 +54,10 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(295, 292);
             this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = "This jukebox was created as a programming project for a University course, it is " +
+    "designed to play back songs that the user can customise through the set up page." +
+    "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label1
             // 
