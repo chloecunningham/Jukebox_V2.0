@@ -21,5 +21,10 @@ namespace Jukebox_v2._0
         {
             this.Close();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
